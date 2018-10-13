@@ -435,7 +435,22 @@ def recommend():
             recommendation_history.append(choice)
             return choice
 ```
+# Extras
+## Base64
+- 8 bit binary encoded into format that can be presented by 7bits
+- This is done only using A-Z, a-z, 0-9, +, and /to represent data and ‘=‘ to pad data
+- Allows binary data to be represented in a way that looks and acts like plain text which makes it more reliable
+- Encoding in base64 just means converting binary data into a limited character set of 64 characters mentioned above
+- For every 3 bytes of data, there are 4 bytes of base64 encoded data so ends up being longe
 
+### Practice
+1. Click [this link](https://cms-assets.tutsplus.com/uploads%2Fusers%2F1181%2Fposts%2F25588%2Fimage-1451298364838.gif) and save the image to your desktop
+2. `image = open('Desktop/deer.gif')`
+3. `read = image.read()`
+4. `encoded = base64.encodestring(read)`
+5. `decoded = base64.decodestring(encoded)`
+6. `open('Desktop/deer_decode_2.gif', 'w').write(decoded)`
+    
 # Useful python libraries to know
 - random
 - math
