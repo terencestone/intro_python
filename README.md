@@ -445,14 +445,29 @@ def recommend():
 
 ### Practice
 1. Click [this link](https://cms-assets.tutsplus.com/uploads%2Fusers%2F1181%2Fposts%2F25588%2Fimage-1451298364838.gif) and save the image to your desktop
-2. Execute the following:
+3. Try this:
 ```
+import base64
+
+name = 'Terence'
+
+encoded = base64.encodestring(name)
+print(encoded)
+
+decoded = base64.decodestring(encoded)
+print(decoded)
+```
+3. Now let's try an image:
+```
+import base64
+
 image = open('Desktop/deer.gif')
 read = image.read()
 encoded = base64.encodestring(read)
 decoded = base64.decodestring(encoded)
-open('Desktop/deer_decode_2.gif', 'w').write(decoded)
+open('Desktop/deer_decoded.gif', 'w').write(decoded)
 ```
+4. Find the new decoded image on your desktop and open it. 
     
 # Useful python libraries to know
 - random
