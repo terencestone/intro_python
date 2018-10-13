@@ -445,11 +445,14 @@ def recommend():
 
 ### Practice
 1. Click [this link](https://cms-assets.tutsplus.com/uploads%2Fusers%2F1181%2Fposts%2F25588%2Fimage-1451298364838.gif) and save the image to your desktop
-2. `image = open('Desktop/deer.gif')`
-3. `read = image.read()`
-4. `encoded = base64.encodestring(read)`
-5. `decoded = base64.decodestring(encoded)`
-6. `open('Desktop/deer_decode_2.gif', 'w').write(decoded)`
+2. Execute the following:
+```
+image = open('Desktop/deer.gif')`
+`read = image.read()`
+`encoded = base64.encodestring(read)`
+`decoded = base64.decodestring(encoded)`
+`open('Desktop/deer_decode_2.gif', 'w').write(decoded)`
+```
     
 # Useful python libraries to know
 - random
