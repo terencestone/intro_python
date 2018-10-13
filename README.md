@@ -447,11 +447,11 @@ def recommend():
 1. Click [this link](https://cms-assets.tutsplus.com/uploads%2Fusers%2F1181%2Fposts%2F25588%2Fimage-1451298364838.gif) and save the image to your desktop
 2. Execute the following:
 ```
-image = open('Desktop/deer.gif')`
-`read = image.read()`
-`encoded = base64.encodestring(read)`
-`decoded = base64.decodestring(encoded)`
-`open('Desktop/deer_decode_2.gif', 'w').write(decoded)`
+image = open('Desktop/deer.gif')
+read = image.read()
+encoded = base64.encodestring(read)
+decoded = base64.decodestring(encoded)
+open('Desktop/deer_decode_2.gif', 'w').write(decoded)
 ```
     
 # Useful python libraries to know
