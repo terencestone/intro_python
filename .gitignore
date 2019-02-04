@@ -1,0 +1,6 @@
+past_workshops/
+.DS_Store
+pandas/
+*.ipynb
+hello.py
+.ipynb_checkpoints/
