@@ -9,7 +9,7 @@ Build a solid foundation in Python, an excellent starting language known for its
 # What do you need?
 - Terminal for Mac users, Command Prompt for Windows users
 - Python 2.7 or higher (Run `python --version` in your Terminal or Command Prompt to see what you have installed)
-- Alternatively, you can run Python using an [online interpreter](https://repl.it/languages/python3)
+- Alternatively, you can run Python using [repl.it](https://repl.it/languages/python3) or [jupyter](https://jupyter.org/try)
 
 # The Basic Data Types
 What are the basic data types?
