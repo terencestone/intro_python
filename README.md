@@ -7,6 +7,7 @@ Build a solid foundation in Python, an excellent starting language known for its
 - website: [simplefractal.com](http://simplefractal.com)
 
 # What do you need?
+- Go to github.com/terencestone/intro_python
 - Terminal for Mac users, Command Prompt for Windows users
 - Python 2.7 or higher (Run `python --version` in your Terminal or Command Prompt to see what you have installed)
 - Alternatively, you can run Python using [repl.it](https://repl.it/languages/python3) or [jupyter](https://jupyter.org/try)
