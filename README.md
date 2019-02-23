@@ -129,18 +129,13 @@ What if we wanted to prompt the user to set the variables as opposed to having t
 
 The above is an example of "string interpolation", a technique used for interpolating strings with variables.
 
-
-Application and Numbers Recap: Lemonade Accounting
-
-Prompt the user for how many lemonades he/she sold and over how many hours.
-Use code to print out how much profit the user made, as well as the user's average hourly income.
-
-Assume the following:
- - It takes 4 lemons to make a lemonade
- - Each lemon costs 50 cents
- - You charge $5 per lemonade
- - Cost of the lemonades is your only expense
- - When prompted, the user will input valid integer values
+# Application and Numbers Recap: Lemonade Accounting
+## Assume the following:
+- You sold 80 lemonades over the course of 8 hours
+- It takes 4 lemons to make a lemonade
+- Each lemon costs 50 cents
+- You charge $5 per lemonade
+- The cost of making lemonade is your only expense
 
 ```python
 num_lemonades = int(input("How many lemonades did you sell? "))
