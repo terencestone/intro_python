@@ -10,7 +10,7 @@ Build a solid foundation in Python, an excellent starting language known for its
 - Go to github.com/terencestone/intro_python
 - Terminal for Mac users, Command Prompt for Windows users
 - Python 2.7 or higher (Run `python --version` in your Terminal or Command Prompt to see what you have installed)
-- Alternatively, you can run Python using [repl.it](https://repl.it/languages/python3) or [jupyter](https://jupyter.org/try)
+- Alternatively, you can run Python using [jupyter](https://jupyter.org/try)
 - See [instructions](https://drive.google.com/file/d/1mceKnk4SJKzr7ct0hHIrfIIn6kdMxrVn/view) for launching jupyter.
 
 # The Basic Data Types
